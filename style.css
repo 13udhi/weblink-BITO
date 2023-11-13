@@ -172,6 +172,9 @@ body {
     .content .content-link .content-link-socials a {
         margin: 1rem 15%;
     }
+    .content .content-link .content-link-about {
+        font-size: 1rem;
+    }
 }
 @media (max-width: 400px) {
     .content-link-socials .link {
@@ -179,6 +182,9 @@ body {
     }
     .content .content-link {
         width: 70vw;
+    }
+    .content .content-link .content-link-about {
+        font-size: .7rem;
     }
 }
 @media (max-width: 350px) {
