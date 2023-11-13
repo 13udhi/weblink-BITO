@@ -118,8 +118,17 @@ body {
     color: var(--warnaUtama);
     box-shadow: var(--warnaUtama) 0 0 15px;
 }
-.footer img {
+.footer {
     margin: 1.5rem;
+    border: black solid 3px;
+}
+.footer .footer-logo {
+    margin-top: 1rem;
+    position: relative;
+    border: red solid 3px;
+}
+.footer img {
+    text-align: center;
     width: 2rem;
     border: var(--warnaUtama) solid .2rem;
     border-radius: 50%;
@@ -129,7 +138,6 @@ body {
     border: var(--warnaBackground) solid .2rem;
     box-shadow: var(--warnaUtama) 0 0 6px;
 }
-
 
 
 @media (max-width: 1200px) {
